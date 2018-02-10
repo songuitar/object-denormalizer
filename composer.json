@@ -1,7 +1,4 @@
 {
-    "require-dev": {
-        "phpunit/phpunit": "^6.5"
-    },
     "minimum-stability":"dev",
     "autoload": {
         "psr-4": {
@@ -13,7 +10,10 @@
         "songuitar/object-access": "dev-dev",
         "symfony/serializer": "4.0",
         "symfony/property-access": "4.0",
-        "symfony/property-info": "4.0",
+        "symfony/property-info": "4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
         "symfony/dependency-injection": "^4.0",
         "symfony/yaml": "^4.0",
         "symfony/config": "^4.0"
